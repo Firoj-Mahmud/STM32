@@ -1,0 +1,10 @@
+12:55:46 **** Incremental Build of configuration Debug for project Student_Data_Log_F411RE ****
+make -j8 all 
+arm-none-eabi-size   Student_Data_Log_F411RE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10632	    476	   3180	  14288	   37d0	Student_Data_Log_F411RE.elf
+Finished building: default.size.stdout
+ 
+
+12:55:46 Build Finished. 0 errors, 0 warnings. (took 465ms)
+

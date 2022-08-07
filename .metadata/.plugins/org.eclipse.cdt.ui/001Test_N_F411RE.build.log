@@ -1,0 +1,16 @@
+19:00:12 **** Build of configuration Debug for project 001Test_N_F411RE ****
+make -j8 all 
+arm-none-eabi-size   001Test_N_F411RE.elf 
+arm-none-eabi-objdump -h -S  001Test_N_F411RE.elf  > "001Test_N_F411RE.list"
+arm-none-eabi-objcopy  -O binary  001Test_N_F411RE.elf  "001Test_N_F411RE.bin"
+arm-none-eabi-size: 001Test_N_F411RE.elf: File format not recognized
+make: *** [makefile:62: default.size.stdout] Error 3
+make: *** Waiting for unfinished jobs....
+arm-none-eabi-objdump: 001Test_N_F411RE.elf: File format not recognized
+make: *** [makefile:67: 001Test_N_F411RE.list] Error 1
+arm-none-eabi-objcopy:001Test_N_F411RE.elf: File format not recognized
+make: *** [makefile:72: 001Test_N_F411RE.bin] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+19:00:12 Build Failed. 4 errors, 0 warnings. (took 534ms)
+

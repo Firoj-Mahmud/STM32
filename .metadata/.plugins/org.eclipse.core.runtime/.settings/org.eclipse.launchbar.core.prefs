@@ -1,0 +1,16 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:000TestProject Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001Keypad,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001Test_N_F411RE Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001Test_N_F411RE,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003Test_N_F411RE,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_HAL_L053R8,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LedToggle_F411_bitwise,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Student_Data_Log_F411RE
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:000TestProject\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:000TestProject\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001Keypad/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001Test_N_F411RE/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:003Test_N_F411RE/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LED_Toggle_HAL_L053R8/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LedToggle_F411_bitwise/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:000TestProject\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:000TestProject\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:001Test_N_F411RE\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:001Test_N_F411RE\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

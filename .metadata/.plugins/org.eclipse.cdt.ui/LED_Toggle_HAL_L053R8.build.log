@@ -1,0 +1,10 @@
+16:33:11 **** Incremental Build of configuration Debug for project LED_Toggle_HAL_L053R8 ****
+make -j8 all 
+arm-none-eabi-size   LED_Toggle_HAL_L053R8.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6380	     20	   1572	   7972	   1f24	LED_Toggle_HAL_L053R8.elf
+Finished building: default.size.stdout
+ 
+
+16:33:12 Build Finished. 0 errors, 0 warnings. (took 721ms)
+

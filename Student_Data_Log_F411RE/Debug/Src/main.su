@@ -1,0 +1,8 @@
+main.c:34:5:main	16	static
+main.c:60:6:display_menu	8	static
+main.c:69:5:read_menu_code	16	static
+main.c:77:6:decode_menu_code	24	static
+main.c:103:6:display_all_records	24	static
+main.c:124:5:check_roll_number	32	static
+main.c:141:5:add_new_record	32	static
+main.c:187:5:delete_record	32	static

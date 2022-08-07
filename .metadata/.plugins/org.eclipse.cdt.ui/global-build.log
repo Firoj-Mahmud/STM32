@@ -1,0 +1,34 @@
+12:53:36 **** Build of configuration Debug for project Student_Data_Log_F411RE ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f411retx.d" -MT"Startup/startup_stm32f411retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f411retx.o" "../Startup/startup_stm32f411retx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "Student_Data_Log_F411RE.elf" @"objects.list"   -mcpu=cortex-m4 -T"F:\Embedded\EmbedMasterCourse\Embedded-C\My_workspace\target\Student_Data_Log_F411RE\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Student_Data_Log_F411RE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Student_Data_Log_F411RE.elf
+ 
+arm-none-eabi-size   Student_Data_Log_F411RE.elf 
+arm-none-eabi-objdump -h -S  Student_Data_Log_F411RE.elf  > "Student_Data_Log_F411RE.list"
+arm-none-eabi-objcopy  -O binary  Student_Data_Log_F411RE.elf  "Student_Data_Log_F411RE.bin"
+   text	   data	    bss	    dec	    hex	filename
+  10632	    476	   3180	  14288	   37d0	Student_Data_Log_F411RE.elf
+Finished building: default.size.stdout
+ 
+Finished building: Student_Data_Log_F411RE.bin
+Finished building: Student_Data_Log_F411RE.list
+ 
+ 
+12:54:22 **** Incremental Build of configuration Debug for project Student_Data_Log_F411RE ****
+make -j8 all 
+arm-none-eabi-size   Student_Data_Log_F411RE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10632	    476	   3180	  14288	   37d0	Student_Data_Log_F411RE.elf
+Finished building: default.size.stdout
+ 
+12:55:46 **** Incremental Build of configuration Debug for project Student_Data_Log_F411RE ****
+make -j8 all 
+arm-none-eabi-size   Student_Data_Log_F411RE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10632	    476	   3180	  14288	   37d0	Student_Data_Log_F411RE.elf
+Finished building: default.size.stdout
+ 
